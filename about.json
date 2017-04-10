@@ -1,0 +1,19 @@
+[
+  {
+    "id":1,
+    "name":"RoboMQ ",
+    "position":"Software Development Intern",
+    "description1":"Designed and developed back-end applications, created and deployed nodes for company’s integration software.",
+    "description2":"Worked on the UI (customer registration and login) of the company website, solved issues with form reload.",
+    "description3":"Technologies worked on: Linux, Angular JS, Python, Node JS, Git, Docker"
+  },
+  {
+    "id":2,
+    "name":"Yash Interiors",
+    "position":"Web Developer/Website Maintenence",
+    "description1":"Led front-end development and assisted with back-end programming for website overhaul.",
+    "description2":"Contributed to the design and structure of the website. Implemented Agile methodology in software development.",
+    "description3":"Technologies worked on: Java, JavaScript, JQuery, PHP."
+  }
+  
+  ]

@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="profile">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>New Angular Project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="masthead">
+        <h3 class="text-muted">RISHI MEHTA</h3>
+
+        <nav>
+            <ul class="nav nav-justified">
+                <li ><a href="#/">Home</a></li>
+                <li><a href="#about">Experience</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#dervices">Projects</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div ng-controller="MainCtrl">
+      <div ng-view></div>
+      
+    </div>
+
+   
+
+    <!-- Site footer -->
+    <footer class="footer">
+        <p>&copy; 2016 Company, Inc.</p>
+    </footer>
+
+</div> <!-- /container -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
