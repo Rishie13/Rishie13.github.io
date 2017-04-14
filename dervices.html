@@ -1,28 +1,25 @@
-<div ng-repeat= 'dervice in dervices'>
-  <div class="row skills">
-      <div class="col-lg-12">
-        
-          
-          <div class="col-md-1"> 
-          <h3>{{dervice.id}}</h3>
-          
-
-          
-          </div>
-          <div class="col-md-11"> 
-          <h3>{{dervice.name}}</h3>
-        
-            
-          <h4>{{dervice.description }}</h4>
-          <h5>{{dervice.technologies}}</h5>
-        
-
-          </div>
-
+<div>
+  <h4 class="text-muted">This page of my AngularJS project uses the 'ng-repeat' functionality to fetch and display data from a '.json' file. This makes it easy to display a large set of data in common fields.</h4> 
+  <div class="row skills" ng-repeat= 'dervice in dervices'>
+    
+    <div class="col-lg-12">
+      <div class="col-md-1"> 
+        <h3>{{dervice.id}}</h3>
       </div>
+      
+    <div class="col-md-11"> 
+      <h3>{{dervice.name}}</h3>
+      <h4>{{dervice.description}}</h4>
+      <h4>{{dervice.description2}}</h4>
+      <h5>{{dervice.technologies}}</h5>
+    </div>
+    
+    </div>
+    
   </div>
-  
-  </div>
-                              
-<p><a class="btn btn-primary" href="#contacts" role="button">Contact Me &raquo;</a></p>
+</div>
+<br>                      
+<p><a class="btn btn-primary" href="http://35.184.20.167/discount/" role="button">Link to the UI dev project &raquo;</a></p>
+<h4 class="text-muted">Visit my Github profile for more projects.</h4>
+<p><a class="btn btn-primary" href="www.github.com/Rishie13" role="button">Github Page &raquo;</a></p>
 

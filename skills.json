@@ -1,0 +1,28 @@
+[
+  {
+    "type":"Web",
+    "name1":"JavaScript, Angular JS, PHP, HTML5, CSS3/LESS/SASS, XML, Bootstrap",
+    "name2":""
+  },
+  {
+    "type":"Languages and Script",
+    "name1":"Core Java, Python, SQL, Shell Scripting",
+    "name2":""
+  },
+  {
+    "type":"Environments",
+    "name1":"Windows, Linux",
+    "name2":""
+  },
+  {
+    "type":"Tools",
+    "name1":"Eclipse, Sublime Text, Webstorm, SSH/Putty, VMware, MagicDraw",
+    "name2":""
+  },
+    {
+    "type":"Miscelleneous",
+    "name1":"GIT, Docker, Apache Tomcat Servers, Agile Scrum Methodology, REST API, Google Cloud Services",
+    "name2":"AWS, Vi text editor, D3"
+  }
+  
+  ]

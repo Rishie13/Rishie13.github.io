@@ -3,24 +3,28 @@
     "id":1,
     "name":"UI/UX Design and Development- Offers and Discount ",
     "description":"Developed a crowd-sourced website that focuses on the UI design. The website stores and updates all entries made by the users, and automatically deletes expired entries.",
+    "description2":"Used Google Cloud Services to host the website, and phpMyAdmin (MySQL) for database services.",
     "technologies":"PHP, JavaScript, Bootstrap, MySQL and Apache Tomcat, Bitnami."
   },
   {
     "id":2,
     "name":"E-commerce Project: Favor Bag",
     "description":"Developed E-commerce based web application and hosted the same using Amazon Web Services.",
+    "description2":"Desktop and mobile (android) compatible interface. Consumer data entry and retrieval.",
     "technologies":"AWS, MySQL, PHP, Bootstrap, JavaScript, Open SSH."
   },
   {
     "id":3,
-    "name":"Designed and developed nodes on ‘Node-Red’",
-    "description":"Node-RED is a tool for wiring together hardware devices, API and online services in new and interesting ways.",
+    "name":"Developed and deployed nodes on ‘Integration Flow Designer’",
+    "description":"An in-house software for wiring together hardware devices, API and online services in new and interesting ways.",
+    "description2":"Developed a custom node for ‘Couch DB’ working on Node JS, JavaScript and HTML.",
     "technologies":""
   },
   {
     "id":4,
     "name":"Near-Proximity: Product",
     "description":"Developed a product software that collected data through a sensor device and computed statistical reports.",
+    "description2":"Used a message-broker system that sent computed data to a visualization tool website (Grafana) where the resultant data is displayed as a graphical representation. ",
     "technologies":"Python, BLE Beacon, Raspberry Pie, Node-Red, Grafana."
   }
   

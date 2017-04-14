@@ -18,6 +18,10 @@ var app = angular.module("profile",['ngRoute'])
     templateUrl: 'contacts.html',
     controller: 'ContactsCtrl'
   }).
+    when('/skills',{
+    templateUrl: 'skills.html',
+    controller: 'SkillsCtrl'
+  }).
   otherwise({redirectTo:'/main'});
 }])
 
@@ -39,5 +43,11 @@ var app = angular.module("profile",['ngRoute'])
 
 .controller('ContactsCtrl', ['$scope', function($scope){
  
+}])
+
+.controller('SkillsCtrl', ['$scope', '$http', function($scope, $http){
+     $http.get('skills.json').then(function(response){
+     $scope.skillso=response.data;
+    });
 }]);
 
