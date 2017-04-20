@@ -6,22 +6,36 @@
     "description2":"Used Google Cloud Services to host the website, and phpMyAdmin (MySQL) for database services.",
     "technologies":"PHP, JavaScript, Bootstrap, MySQL and Apache Tomcat, Bitnami."
   },
-  {
+   {
     "id":2,
+    "name":"Website Development: Portfolio Website",
+    "description":"Developed a website from scratch as an independent project.",
+    "description2":"The website demonstrates various Web Development technologies, and is based on AngularJS framework.",
+    "technologies":"HTML, CSS, JavaScript, AngularJS, Bootstrap, Github, npm, Bower, Grunt, etc."
+  },
+  {
+    "id":3,
     "name":"E-commerce Project: Favor Bag",
     "description":"Developed E-commerce based web application and hosted the same using Amazon Web Services.",
     "description2":"Desktop and mobile (android) compatible interface. Consumer data entry and retrieval.",
     "technologies":"AWS, MySQL, PHP, Bootstrap, JavaScript, Open SSH."
   },
   {
-    "id":3,
+    "id":4,
+    "name":"Angular JS Project: CRUD application using Firebase",
+    "description":"Developed a simple CRUD application using Angular JS, Firebase API and AngularFire. Link to the App provided below.",
+    "description2":"The app maintains a dynamic record of entries, uses Firebase database to update and display records in real-time. ",
+    "technologies":"HTML, CSS/SCSS, JavaScript, AngularJS, Foundation, Firebase API, AngularFire."
+  },
+  {
+    "id":5,
     "name":"Developed and deployed nodes on ‘Integration Flow Designer’",
     "description":"An in-house software for wiring together hardware devices, API and online services in new and interesting ways.",
     "description2":"Developed a custom node for ‘Couch DB’ working on Node JS, JavaScript and HTML.",
     "technologies":""
   },
   {
-    "id":4,
+    "id":6,
     "name":"Near-Proximity: Product",
     "description":"Developed a product software that collected data through a sensor device and computed statistical reports.",
     "description2":"Used a message-broker system that sent computed data to a visualization tool website (Grafana) where the resultant data is displayed as a graphical representation. ",
