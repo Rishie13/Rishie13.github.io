@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myContacts" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myContacts" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myContacts" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myContacts" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Visitors CRUD App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="foundation/css/foundation.css"> 
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation-flex.css"> -->
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+     <div class="large-12 columns"> 
+      <h1>Visitors</h1>
+      This is a CRUD application that uses <b>Firebase API</b> services to interact with database and maintain a dynamic record of form entries. This app uses important <b>AngularJS</b> concepts like ng-route, ng-submit, ng-repeat and Firebase services like AngularFire and firebaseArray.
+      <hr> 
+    </div>
+  </div>
+  <div ng-view></div>
+
+</div>
+
+
+<script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAlXUURF4cI2ZXi7PewfZfHbKzkKogu_5c",
+    authDomain: "contactsapp-b84ae.firebaseapp.com",
+    databaseURL: "https://contactsapp-b84ae.firebaseio.com",
+    projectId: "contactsapp-b84ae",
+    storageBucket: "contactsapp-b84ae.appspot.com",
+    messagingSenderId: "857026852952"
+  };
+  firebase.initializeApp(config);
+</script>
+
+  <script src="jquery/dist/jquery.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="foundation/js/foundation/foundation.js"></script>
+  <script src="angularfire/dist/angularfire.js"></script>
+  <!--<script src="firebase/firebase.js"></script> -->
+  <script src="contacts/contacts.js"></script>
+</body>
+</html>

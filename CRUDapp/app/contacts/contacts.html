@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<div class="row" ng-controller="contactsController">
+  <div class="large-12 columns">
+    <div data-alert ng-show="msg" class="alert-box">{{msg}}</div><br>
+  </div>
+
+<div class="row" ng-show="visitorDetails">
+  <div class="panel">
+      <h4>{{name}}</h4>
+      <ul>
+        <li><strong>Company: </strong>{{company}}</li>
+        <li><strong>Email: </strong>{{email}}</li>
+        <li><strong>City: </strong>{{city}}</li>
+        <li><strong>Phone: </strong>{{phone}}</li>
+        <li><strong>Animal: </strong>{{catdog}}</li>
+
+      </ul>
+
+      <a class="button small" ng-click="hideForm()" ng-show="visitorDetails"> - Hide Details </a> 
+    </div>
+  </div>
+
+
+
+<form ng-show="showAddForm" ng-submit="addFormSubmit()">
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Name:
+        <input type="text" ng-model="name" placeholder="Dr. Strangelove" required />
+      </label>
+    </div>
+      <div class="large-6 columns">
+      <label>Email:
+        <input type="text" ng-model="email" placeholder="NigerianPrince@really.com" required />
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Company:
+        <input type="text" ng-model="company" placeholder="Monsters, Inc."  />
+      </label>
+    </div>
+      <div class="large-6 columns">
+      <label>City:
+        <input type="text" ng-model="city" placeholder="Sicily"  />
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Phone:
+        <input type="text" ng-model="phone" placeholder="(###)###-####"  />
+      </label>
+    </div>
+      <div class="large-6 columns">
+      <label>Cat/Dog Person:
+        <input type="text" ng-model="catdog" placeholder="A Llama?"  />
+      </label>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <input type="submit" value="Add Entry" class="button">
+    </div>
+  </div>
+</form>
+
+
+
+<form ng-show="editFormShow" ng-submit="editFormSubmit()">
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Upadte Name:
+        <input type="text" ng-model="name" placeholder="Dr. Strangelove" required />
+      </label>
+    </div>
+      <div class="large-6 columns">
+      <label>Update Email:
+        <input type="text" ng-model="email" placeholder="NigerianPrince@really.com" required />
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Update Company:
+        <input type="text" ng-model="company" placeholder="Monsters, Inc."  />
+      </label>
+    </div>
+      <div class="large-6 columns">
+      <label>Update City:
+        <input type="text" ng-model="city" placeholder="Sicily"  />
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Update Phone:
+        <input type="text" ng-model="phone" placeholder="(###)###-####"  />
+      </label>
+    </div>
+      <div class="large-6 columns">
+      <label>Update Cat/Dog Person:
+        <input type="text" ng-model="catdog" placeholder="A Llama?"  />
+      </label>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <input type="submit" value="Update Entry" class="button">
+    </div>
+  </div>
+</form>
+
+
+      <div class="small-12 large-2 columns">
+
+
+        <a class="button large" ng-click="addForm()" ng-hide="showAddForm"> + New Entry </a>
+        <a class="button large" ng-click="hideForm()" ng-show="showAddForm"> - Hide Form </a>
+
+
+      </div>
+
+    <div class="large-12 columns"> 
+    <h3>The Usual Suspects: {{contacts.length}}</h3>
+
+      <table>
+        <thead>
+          <tr>
+            <th width="25%">Name</th>
+            <th width="25%">Company</th>
+            <th width="25%">City</th>
+            <th width="25%;">Actions</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr ng-repeat="contact in contacts">
+            <td><a ng-click="showEntry(contact)">{{contact.name}}</a></td>
+            <td>{{contact.company}}</td>
+            <td>{{contact.city}}</td>
+            <td><a class="button tiny" ng-click="showEditForm(contact)" >Edit Entry</a>
+            <a class="button tiny alert" ng-click="removeContact(contact) ">Delete Entry</a></td>
+          </tr>
+        </tbody> 
+      </table>
+
+    </div>
+</div>
+
+</body>
+</html>
