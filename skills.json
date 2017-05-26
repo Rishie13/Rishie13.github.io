@@ -1,12 +1,12 @@
 [
   {
     "type":"Web",
-    "name1":"JavaScript, Angular JS, PHP, HTML5, CSS3/LESS/SASS, XML, Bootstrap",
+    "name1":"JavaScript, Angular JS, PHP, HTML5, CSS3/LESS/SASS, WordPress, Bootstrap, Foundation",
     "name2":""
   },
   {
     "type":"Languages and Script",
-    "name1":"Core Java, Python, SQL, Shell Scripting",
+    "name1":"Core Java, SQL, Shell Scripting, NoSQL",
     "name2":""
   },
   {
@@ -22,7 +22,7 @@
     {
     "type":"Miscelleneous",
     "name1":"GIT, Docker, Apache Tomcat Servers, Agile Scrum Methodology, REST API, Google Cloud Services",
-    "name2":"AWS, Vi text editor, D3"
+    "name2":"AWS, Vi text editor, D3, LAMP Environment, npm, Bower,  XML, Mongo DB"
   }
   
   ]
