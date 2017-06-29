@@ -5,7 +5,7 @@
     "description":"Developed a crowd-sourced website that focuses on the UI design. The website stores and updates all entries made by the users, and automatically deletes expired entries.",
     "description2":"Used Google Cloud Services to host the website, and phpMyAdmin (MySQL) for database services.",
     "technologies":"HTML, CSS, JavaScript, Bootstrap, MySQL and Apache Tomcat, Google Cloud Services, PHP",
-    "link":"http://35.184.20.167/discount/"
+    "linko":"http://35.184.20.167/discount/"
   },
    {
     "id":2,
@@ -13,7 +13,7 @@
     "description":"Developed a website from scratch as an independent project.",
     "description2":"The website demonstrates various Web Development technologies, and is based on AngularJS framework.",
     "technologies":"HTML, CSS, JavaScript, AngularJS, Bootstrap, Github, npm",
-     "link":"http://rishie13.github.io"
+     "linko":"http://rishie13.github.io"
   },
   {
     "id":3,
@@ -21,7 +21,7 @@
     "description":"Developed E-commerce based web application and hosted the same using Amazon Web Services.",
     "description2":"Desktop and mobile (android) compatible interface. Consumer data entry and retrieval.",
     "technologies":"AWS, MySQL, PHP, Bootstrap, JavaScript, Open SSH/Putty",
-    "link":"https://github.com/Rishie13/E-commerce-project-FavorBag"
+    "linko":"https://github.com/Rishie13/E-commerce-project-FavorBag"
   },
   {
     "id":4,
@@ -29,7 +29,7 @@
     "description":"Developer node.js app using nmp library called 'Twit'. Used Express.js to interact with Twitter API. ",
     "description2":"The app takes keywords as query and fetches latest tweets containing the keyword. Used Pug+Bootstrap for front-end.",
     "technologies":"Node.js, Express.js, npm, Twitter API, Pug/Jade, Bootstrap, Heroku",
-    "link":"http://twitter-rishie13.herokuapp.com/"
+    "linko":"http://twitter-rishie13.herokuapp.com/"
   },
   {
     "id":5,
@@ -37,7 +37,7 @@
     "description":"Developed a simple CRUD application using Angular JS, Firebase API and AngularFire. Link to the App provided below.",
     "description2":"The app maintains a dynamic record of entries, uses Firebase database to update and display records in real-time. ",
     "technologies":"HTML, CSS/SCSS, JavaScript, AngularJS, Foundation, Firebase API, AngularFire",
-    "link":"http://mehtarishi.com/CRUDapp/app/#!/contacts"
+    "linko":"http://mehtarishi.com/CRUDapp/app/#!/contacts"
   },
   {
     "id":6,
@@ -45,7 +45,7 @@
     "description":"An in-house software for wiring together hardware devices, API and online services in new and interesting ways.",
     "description2":"Developed a custom node for ‘Couch DB’ working on Node JS, JavaScript and HTML",
     "technologies":"Node.js, HTML, Git",
-    "link":""
+    "linko":""
   },
   {
     "id":7,
@@ -53,7 +53,7 @@
     "description":"Developed a product software that collected data through a sensor device and computed statistical reports.",
     "description2":"Used a message-broker system that sent computed data to a visualization tool website (Grafana) where the resultant data is displayed as a graphical representation. ",
     "technologies":"Python, BLE Beacon, Raspberry Pie, Node-Red, Grafana",
-    "link":""
+    "linko":""
   }
   
   ]
