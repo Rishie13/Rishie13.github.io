@@ -26,7 +26,7 @@
   {
     "id":4,
     "name":"Node.js Project: Twitter Live Tweets App",
-    "description":"Developer node.js app using nmp library called 'Twit'. Used Express.js to interact with Twitter API. ",
+    "description":"Developed node.js app using npm package called 'Twit'. Used Express.js to setup web server and interact with the Twitter API.",
     "description2":"The app takes keywords as query and fetches latest tweets containing the keyword. Used Pug+Bootstrap for front-end.",
     "technologies":"Node.js, Express.js, npm, Twitter API, Pug/Jade, Bootstrap, Heroku",
     "linko":"http://twitter-rishie13.herokuapp.com/"
