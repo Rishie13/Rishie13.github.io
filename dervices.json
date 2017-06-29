@@ -1,45 +1,52 @@
 [
   {
     "id":1,
-    "name":"UI/UX Design and Development- Offers and Discount ",
+    "name":"UI/UX Design and Development- Offers and Discount",
     "description":"Developed a crowd-sourced website that focuses on the UI design. The website stores and updates all entries made by the users, and automatically deletes expired entries.",
     "description2":"Used Google Cloud Services to host the website, and phpMyAdmin (MySQL) for database services.",
-    "technologies":"PHP, JavaScript, Bootstrap, MySQL and Apache Tomcat, Bitnami."
+    "technologies":"HTML, CSS, JavaScript, Bootstrap, MySQL and Apache Tomcat, Google Cloud Services, PHP"
   },
    {
     "id":2,
     "name":"Website Development: Portfolio Website",
     "description":"Developed a website from scratch as an independent project.",
     "description2":"The website demonstrates various Web Development technologies, and is based on AngularJS framework.",
-    "technologies":"HTML, CSS, JavaScript, AngularJS, Bootstrap, Github, npm, Bower, Grunt"
+    "technologies":"HTML, CSS, JavaScript, AngularJS, Bootstrap, Github, npm"
   },
   {
     "id":3,
     "name":"E-commerce Project: Favor Bag",
     "description":"Developed E-commerce based web application and hosted the same using Amazon Web Services.",
     "description2":"Desktop and mobile (android) compatible interface. Consumer data entry and retrieval.",
-    "technologies":"AWS, MySQL, PHP, Bootstrap, JavaScript, Open SSH."
+    "technologies":"AWS, MySQL, PHP, Bootstrap, JavaScript, Open SSH/Putty"
   },
   {
     "id":4,
-    "name":"Angular JS Project: CRUD application using Firebase",
-    "description":"Developed a simple CRUD application using Angular JS, Firebase API and AngularFire. Link to the App provided below.",
-    "description2":"The app maintains a dynamic record of entries, uses Firebase database to update and display records in real-time. ",
-    "technologies":"HTML, CSS/SCSS, JavaScript, AngularJS, Foundation, Firebase API, AngularFire."
+    "name":"Node.js Project: Twitter Live Tweets App",
+    "description":"Developer node.js app using nmp library called 'Twit'. Used Express.js to interact with Twitter API. ",
+    "description2":"The app takes keywords as query and fetches latest tweets containing the keyword. Used Pug+Bootstrap for front-end.",
+    "technologies":"Node.js, Express.js, npm, Twitter API, Pug/Jade, Bootstrap, Heroku"
   },
   {
     "id":5,
-    "name":"Developed and deployed nodes on ‘Integration Flow Designer’",
-    "description":"An in-house software for wiring together hardware devices, API and online services in new and interesting ways.",
-    "description2":"Developed a custom node for ‘Couch DB’ working on Node JS, JavaScript and HTML.",
-    "technologies":""
+    "name":"AngularJS Project: CRUD application using Firebase",
+    "description":"Developed a simple CRUD application using Angular JS, Firebase API and AngularFire. Link to the App provided below.",
+    "description2":"The app maintains a dynamic record of entries, uses Firebase database to update and display records in real-time. ",
+    "technologies":"HTML, CSS/SCSS, JavaScript, AngularJS, Foundation, Firebase API, AngularFire"
   },
   {
     "id":6,
+    "name":"Developed and deployed nodes on ‘Integration Flow Designer’",
+    "description":"An in-house software for wiring together hardware devices, API and online services in new and interesting ways.",
+    "description2":"Developed a custom node for ‘Couch DB’ working on Node JS, JavaScript and HTML",
+    "technologies":"Node.js, HTML, Git"
+  },
+  {
+    "id":7,
     "name":"Near-Proximity: Product",
     "description":"Developed a product software that collected data through a sensor device and computed statistical reports.",
     "description2":"Used a message-broker system that sent computed data to a visualization tool website (Grafana) where the resultant data is displayed as a graphical representation. ",
-    "technologies":"Python, BLE Beacon, Raspberry Pie, Node-Red, Grafana."
+    "technologies":"Python, BLE Beacon, Raspberry Pie, Node-Red, Grafana"
   }
   
   ]
